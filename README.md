@@ -1,111 +1,105 @@
-In this project, let's build a **Browser History** app by applying the concepts we have learned till now.
+# Browser-History 📚
 
-### Refer to the image below:
+![Browser History](https://img.shields.io/badge/Browser--History-v1.0.0-brightgreen)
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/browser-history-output.gif" alt="browser history output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+Welcome to the **Browser-History** repository! This app provides an interactive way to manage your browsing history. With features like filtering history items and deleting entries, it enhances your browsing experience.
 
-### Design Files
+## Table of Contents
 
-<details>
-<summary>Click to view</summary>
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [How to Contribute](#how-to-contribute)
+6. [License](#license)
+7. [Releases](#releases)
+8. [Contact](#contact)
 
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/browser-history-sm-outputs.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Browser History](https://assets.ccbp.in/frontend/content/react-js/browser-history-lg-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Empty History View](https://assets.ccbp.in/frontend/content/react-js/browser-history-empty-view-lg-output.png)
+## Features ✨
 
-</details>
+- **Interactive Interface**: Users can easily navigate through their browsing history.
+- **Search Functionality**: Quickly filter history items using a search bar.
+- **Delete Entries**: Remove unwanted history items with a simple click.
+- **Responsive Design**: The app looks great on both desktop and mobile devices.
+- **State Management**: Follows best practices in React for managing state.
+- **Component-Based Architecture**: Enhances code readability and reusability.
 
-### Set Up Instructions
+## Technologies Used 🛠️
 
-<details>
-<summary>Click to view</summary>
+- **React**: For building the user interface.
+- **CSS**: For styling the application.
+- **JavaScript**: The core programming language.
+- **HTML**: For structuring the web pages.
+- **GitHub**: For version control and collaboration.
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+## Installation ⚙️
 
-### Completion Instructions
+To get started with the Browser-History app, follow these steps:
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/uploxed/Browser-History.git
+   ```
+   
+2. Navigate to the project directory:
+   ```bash
+   cd Browser-History
+   ```
 
-The app must have the following functionalities
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
 
-- Initially, the list of given history items should be displayed with a delete button for each history item.
-- When a non-empty value is provided in the search input, then display the history items which includes the search input irrespective of case
-- When the delete button of a history item is clicked, then the respective history item should be deleted from the list of history items
-- When a non-empty value is provided in the search input element, and no history item includes the value given in the search input, then [Empty History View](https://assets.ccbp.in/frontend/content/react-js/browser-history-empty-view-lg-output.png) should be displayed
-- When all the history items are deleted, then [Empty History View](https://assets.ccbp.in/frontend/content/react-js/browser-history-empty-view-lg-output.png) should be displayed
+4. Start the application:
+   ```bash
+   npm start
+   ```
 
-- The App is provided with `historyList`. It consists of a list of historyItem objects with the following properties in each historyItem object
+The app should now be running on `http://localhost:3000`.
 
-  |     Key      | Data Type |
-  | :----------: | :-------: |
-  |      id      |  Number   |
-  | timeAccessed |  String   |
-  |   logoUrl    |  String   |
-  |    title     |  String   |
-  |  domainUrl   |  String   |
+## Usage 🖥️
 
-</details>
+Once the application is running, you will see the main interface. Here’s how to use it:
 
-### Important Note
+- **View Browsing History**: The app displays your browsing history in a list format.
+- **Search**: Use the search bar at the top to filter through your history.
+- **Delete Entries**: Click the delete button next to any entry to remove it from your history.
 
-<details>
-<summary>Click to view</summary>
+For more details, check the [Releases](https://github.com/uploxed/Browser-History/releases) section.
 
-<br/>
+## How to Contribute 🤝
 
-**The following instructions are required for the tests to pass**
+We welcome contributions! Here’s how you can help:
 
-- The `logoUrl` in the each history item have alt as **domain logo**
-- The delete button in the history item should have the `data-testid` as **delete**
+1. **Fork the Repository**: Click the fork button at the top right of the page.
+2. **Create a Branch**: 
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Your Changes**: Edit the files as needed.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**: 
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. **Create a Pull Request**: Go to the original repository and click on "New Pull Request".
 
-</details>
+## License 📄
 
-### Resources
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-<details>
-<summary>Image URLs</summary>
+## Releases 📦
 
-- [https://assets.ccbp.in/frontend/react-js/history-website-logo-img.png](https://assets.ccbp.in/frontend/react-js/history-website-logo-img.png) alt should be **app logo**
-- [https://assets.ccbp.in/frontend/react-js/search-img.png](https://assets.ccbp.in/frontend/react-js/search-img.png) alt should be **search**
-- [https://assets.ccbp.in/frontend/react-js/delete-img.png](https://assets.ccbp.in/frontend/react-js/delete-img.png) alt should be **delete**
+To download the latest version of the Browser-History app, visit the [Releases](https://github.com/uploxed/Browser-History/releases) section. Download the files and follow the installation instructions to get started.
 
-</details>
+## Contact 📧
 
-<details>
-<summary>Colors</summary>
+For questions or feedback, please reach out to us via the issues section of this repository or contact the maintainers directly.
 
-<br/>
+---
 
-<div style="background-color: #3367d6; width: 150px; padding: 10px; color: white">Hex: #3367d6</div>
-<div style="background-color: #2850a7; width: 150px; padding: 10px; color: white">Hex: #2850a7</div>
-<div style="background-color: #ececec; width: 150px; padding: 10px; color: black">Hex: #ececec</div>
-<div style="background-color: #64748b; width: 150px; padding: 10px; color: white">Hex: #64748b</div>
-<div style="background-color: #f8fafc; width: 150px; padding: 10px; color: black">Hex: #f8fafc</div>
-<div style="background-color: #6697ff; width: 150px; padding: 10px; color: black">Hex: #6697ff</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #475569; width: 150px; padding: 10px; color: white">Hex: #475569</div>
-<br/>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+Thank you for checking out the Browser-History app! We hope you find it useful for managing your browsing history. Your feedback is always welcome.
